@@ -1,0 +1,5 @@
+- 👋 Hi, I’m Tshwarelo Lephoto (@CodeByRelo)
+- 👀 I’m a creative and innovative Web Designer
+- 🌱 I’m currently an Information Technology (Software Development) student
+- 💞️ I’m looking to collaborate on exciting design and development Projects
+- 📫 How to reach me (email - tlephoto22@gmail.com)
