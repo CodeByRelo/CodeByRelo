@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b79d8b5fd5.js" crossorigin="anonymous"></script>
+    <title>Black Print Magazine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Black Print <span>Magazine.</span></a>
+            <a href="#blog" class="login">Discover</a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Share Your Story, Make A Difference</h2>
+            <h3 class="home-subtitle">Change Starts with A Story</h3>
+        </div>
+    </section>
+
+    <section class="about container" id="about">
+        <div class="contentBx">
+            <h2 class="titleText">Discover the story Behind the Prints.</h2>
+            <p class="title-text">
+                Black Print is poised to become the premier publication for showcasing the vibrant and diverse creative
+                scene in Johannesburg, South Africa. <br><br>As an upcoming magazine, we are committed to providing a platform for
+                local artists and ceative entreprenuers to share their stories, inspirations, and contributions to the cultural landscape
+                of our city.
+            </p>
+            <a href="about.html" class="btn">Read more</a>
+        </div>
+        <div class="imgBx">
+            <img src="images/logo.jpg" alt="logo" class="fitBg">
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <h2 class="blog-title">Journey into the lands of <span>creativity.</span></h2>
+        <h2 class="blog-subtitle"></h2>
+        <div class="card-list">
+            <a href="#" class="card-item">
+                <img src="images/artist 1.png" alt="Card Image">
+                <h3>Kyle Watson talks SA music...</h3>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-pointer"></i>
+                </div>
+            </a>
+
+            <a href="#" class="card-item">
+                <img src="images/model.jpg" alt="Card Image">
+                <h3>Tyla says 'people are not ready' for her debut album</h3>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-pointer"></i>
+                </div>
+            </a>
+
+            <a href="#" class="card-item">
+                <img src="images/artpiece.jpg" alt="Card Image">
+                <h3>The Year in Africa: Art scene Grows Dramasticalyy...</h3>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-pointer"></i>
+                </div>
+            </a>
+
+            <a href="#" class="card-item">
+                <img src="images/black.jpg" alt="Card Image">
+                <h3>Government announces new awards for arts, culture sector...</h3>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-pointer"></i>
+                </div>
+            </a>
+
+            <a href="#" class="card-item">
+                <img src="images/music.jpg" alt="Card Image">
+                <h3>creative collisions: Crossing the Music divide...</h3>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-pointer"></i>
+                </div>
+            </a>
+
+            <a href="#" class="card-item">
+                <img src="images/women.jpg" alt="Card Image">
+                <h3>Other Articles...</h3>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-pointer"></i>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="content">
+          <div class="left box">
+            <div class="lower">
+              <div class="topic">Contact us</div>
+              <div class="phone">
+                <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
+              </div>
+              <div class="email">
+                <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="right box">
+            <div class="topic">Subscribe to Newsletter</div>
+            <form name="submit-to-google-sheet">
+              <input type="email" name="Email" placeholder="Enter email address" required>
+              <input type="submit" name="" value="Subscribe">
+              <span id="msg" class="msg"></span>
+              <div class="media-icons">
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>Designed By Tshwarelo <a href="#">@CodeByRelo</a></p>
+        </div>
+      </footer>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwy9BigscvZafM60ojeRQydGQPnOHskGyZwjT6pb4SkV4ohesjaSaXk16Pe8V74hxHGQw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+                    msg.innerHTML = "Thank You For Subscribing!"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },4000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
