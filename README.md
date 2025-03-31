@@ -1,24 +1,11 @@
 <h1 align="center">👋 Hi, I'm Tshwarelo Lephoto</h1>
-<h3 align="center">Junior Software Developer | IT Graduate</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#">
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET">
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</p>
+<h3 align="center">Junior Software Developer | IT Graduate | Software Engineering and Solutions Development</h3>
+<p align="center">🌐 Portfolio: <a href="https://codebyrelo.netlify.app/">codebyrelo.netlify.app</a></p>
 
 ### 🚀 About Me
 - 🎓 IT Graduate (Nelson Mandela University) <br>
 - 🖥️ Passionate about C# & .NET Development <br>
 - 📚 Always learning & improving <br>
-
-### 📫 Contact Me
-📧 Email: tlephoto22@gmail.com <br>
-🌐 Portfolio: <a href="https://codebyrelo.netlify.app/">codebyrelo.netlify.app</a> <br>
-
-📌 *Check out my repositories!* 🚀
-
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/relo.tll) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tshwarelo-lephoto) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@code.by.relo) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tlephoto22@gmail.com) 
