@@ -1,6 +1,5 @@
 <h1 align="center">👋 Hi, I'm Tshwarelo Lephoto</h1>
 <h3 align="center">Junior Software Developer | IT Graduate | Software Engineering and Solutions Development</h3>
-<p align="center">🌐 Portfolio: <a href="https://codebyrelo.netlify.app/">codebyrelo.netlify.app</a></p>
 
 ### 🚀 About Me
 - 🎓 IT Graduate (Nelson Mandela University) <br>
